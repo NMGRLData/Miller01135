@@ -1,0 +1,156 @@
+{
+    "acquisition_software": "Pychron18.2(Exp0.2,DVC0.1)",
+    "aliquot": 3,
+    "analysis_type": "unknown",
+    "analyst_name": "MHeizler",
+    "comment": "C:14 Single sanidine",
+    "commit": "a0ab0abf6d86f963266f9c0167d6e83e2d099dfc",
+    "conditionals": null,
+    "data_reduction_software": "Pychron18.2(DVC0.1)",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-07-13T18:49:08",
+                "title": "iServer Hum.",
+                "value": 54.1
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-07-13T18:33:43",
+                "title": "Building",
+                "value": 99.0
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-07-13T18:14:33",
+                "title": "Lab",
+                "value": 88.1
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-07-13T19:07:35",
+                "title": "Jan Decabin",
+                "value": 5.7
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-07-13T18:48:08",
+                "title": "Cold Finger",
+                "value": -194.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-07-13T18:33:59",
+                "title": "iServer Temp.",
+                "value": 74.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-07-13T19:02:56",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-07-13T18:44:43",
+                "title": null,
+                "value": 35.9267399267399
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "extraction": "jan_co2_video.py",
+    "identifier": "66457",
+    "increment": 0,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-297",
+    "irradiation_level": "C",
+    "irradiation_position": 14,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Sanidine",
+    "measurement": "jan_unknown120_60_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Miller, C",
+    "project": "Miller01135",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Miller01135",
+    "sample": "EWWSB-02",
+    "source": {
+        "emission": 548.644,
+        "trap": 198.371
+    },
+    "spec_sha": "9811f693cf6787ab1d1ad5ed9a2f8a419ace7588",
+    "timestamp": "2018-07-13T19:08:01.848321",
+    "tripped_conditional": null,
+    "username": "MHeizler",
+    "uuid": "867e465d-efb8-426a-9312-16b4ea067f19",
+    "whiff_result": null
+}
